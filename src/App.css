@@ -1,0 +1,92 @@
+.App {}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.add__buttons-block {
+  margin-top: 30px;
+}
+
+.add__buttons {
+  margin-right: 10px;
+}
+
+.todolists {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+
+.todolist {
+  width: 24%;
+  flex-shrink: 0;
+  flex-grow: 0;
+  cursor: grab;
+  margin-bottom: 30px;
+  margin-right: 19px;
+}
+
+.todolist:nth-child(4n) {
+  margin-right: 0;
+}
+
+.todolist-label {
+  display: inline-block;
+  width: 75%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal__window {
+  padding: 30px;
+  max-width: 500px;
+}
+
+.tasks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.task__checkbox {
+  margin-right: 5px;
+}
+
+.task__title {
+  display: inline-block;
+  width: 79%;
+  overflow: hidden;
+}
+
+.completed {
+  font-weight: bold;
+  text-decoration: line-through;
+  color: #0091ff;
+}
+
+.uncompleted {
+  font-weight: bold;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+}
+
+.headermodule {
+  background-color: #0091ff;
+}
+
+.logo {
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+}
